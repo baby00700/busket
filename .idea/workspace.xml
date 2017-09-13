@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1517b305-3198-419d-b9e8-f52c274cf3bc" name="默认" comment="默认">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yingxinyuanxing/design/到校情况.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yingxinyuanxing/design/在线缴费.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yingxinyuanxing/design/基本信息.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yingxinyuanxing/design/宿舍分配.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yingxinyuanxing/design/床上用品.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yingxinyuanxing/design/手机报到主页.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yingxinyuanxing/design/班级分配.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yingxinyuanxing/design/绿色通道.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yingxinyuanxing/design/自选军训服.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yingxinyuanxing/design/迎新报到.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yingxinyuanxing/design/迎新报到.psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue1/VUE" afterPath="$PROJECT_DIR$/Vue1/VUE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS波浪/css/app.css" afterPath="$PROJECT_DIR$/CSS波浪/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS波浪/css波浪效果.html" afterPath="$PROJECT_DIR$/CSS波浪/css波浪效果.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5时间控件/css/app.css" afterPath="$PROJECT_DIR$/H5时间控件/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5时间控件/css/mui.picker.min.css" afterPath="$PROJECT_DIR$/H5时间控件/css/mui.picker.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5时间控件/js/ca-certificates.crt" afterPath="$PROJECT_DIR$/H5时间控件/js/ca-certificates.crt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5时间控件/js/mui.picker.min.js" afterPath="$PROJECT_DIR$/H5时间控件/js/mui.picker.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MUI框架/.project" afterPath="$PROJECT_DIR$/MUI框架/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MUI框架/index.html" afterPath="$PROJECT_DIR$/MUI框架/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajaxphp/clienthint.js" afterPath="$PROJECT_DIR$/ajaxphp/clienthint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajaxphp/gethint.php" afterPath="$PROJECT_DIR$/ajaxphp/gethint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/canvas/canvas1重绘/重绘1.html" afterPath="$PROJECT_DIR$/canvas/canvas1重绘/重绘1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/.project" afterPath="$PROJECT_DIR$/hello mui/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/css/app.css" afterPath="$PROJECT_DIR$/hello mui/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/css/feedback.css" afterPath="$PROJECT_DIR$/hello mui/css/feedback.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/css/mui.dtpicker.css" afterPath="$PROJECT_DIR$/hello mui/css/mui.dtpicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/css/mui.picker.all.css" afterPath="$PROJECT_DIR$/hello mui/css/mui.picker.all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/css/mui.picker.min.css" afterPath="$PROJECT_DIR$/hello mui/css/mui.picker.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/css/mui.poppicker.css" afterPath="$PROJECT_DIR$/hello mui/css/mui.poppicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/examples/actionsheet-plus.html" afterPath="$PROJECT_DIR$/hello mui/examples/actionsheet-plus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/examples/actionsheet.html" afterPath="$PROJECT_DIR$/hello mui/examples/actionsheet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/examples/card.html" afterPath="$PROJECT_DIR$/hello mui/examples/card.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/examples/im-chat.html" afterPath="$PROJECT_DIR$/hello mui/examples/im-chat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/examples/media-list.html" afterPath="$PROJECT_DIR$/hello mui/examples/media-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/examples/offcanvas-drag-left-plus-main.html" afterPath="$PROJECT_DIR$/hello mui/examples/offcanvas-drag-left-plus-main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/examples/picker.html" afterPath="$PROJECT_DIR$/hello mui/examples/picker.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/examples/popovers.html" afterPath="$PROJECT_DIR$/hello mui/examples/popovers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/examples/pullrefresh_sub.html" afterPath="$PROJECT_DIR$/hello mui/examples/pullrefresh_sub.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/examples/slider-default.html" afterPath="$PROJECT_DIR$/hello mui/examples/slider-default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/examples/tab-webview-subpage-setting.html" afterPath="$PROJECT_DIR$/hello mui/examples/tab-webview-subpage-setting.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/index.html" afterPath="$PROJECT_DIR$/hello mui/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/js/ad.js" afterPath="$PROJECT_DIR$/hello mui/js/ad.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello mui/js/mui.picker.min.js" afterPath="$PROJECT_DIR$/hello mui/js/mui.picker.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hengxiang/.project" afterPath="$PROJECT_DIR$/hengxiang/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hengxiang/新生报到流程/新生报到流程/css/styles.css" afterPath="$PROJECT_DIR$/hengxiang/新生报到流程/新生报到流程/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hengxiang/新生报到流程/新生报到流程/index1.html" afterPath="$PROJECT_DIR$/hengxiang/新生报到流程/新生报到流程/index1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lixiao/.project" afterPath="$PROJECT_DIR$/lixiao/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lixiao/css/lixiaodan.css" afterPath="$PROJECT_DIR$/lixiao/css/lixiaodan.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lixiao/css/tanchu.css" afterPath="$PROJECT_DIR$/lixiao/css/tanchu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lixiao/html/tanchuxiangqing.html" afterPath="$PROJECT_DIR$/lixiao/html/tanchuxiangqing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lixiao/index.html" afterPath="$PROJECT_DIR$/lixiao/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lixiaoyuanxing/.project" afterPath="$PROJECT_DIR$/lixiaoyuanxing/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lixiaoyuanxing/css/index.css" afterPath="$PROJECT_DIR$/lixiaoyuanxing/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lixiaoyuanxing/css/lixiaodan.css" afterPath="$PROJECT_DIR$/lixiaoyuanxing/css/lixiaodan.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lixiaoyuanxing/css/tanchu.css" afterPath="$PROJECT_DIR$/lixiaoyuanxing/css/tanchu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lixiaoyuanxing/css/xiangqingye.css" afterPath="$PROJECT_DIR$/lixiaoyuanxing/css/xiangqingye.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lixiaoyuanxing/index.html" afterPath="$PROJECT_DIR$/lixiaoyuanxing/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lixiaoyuanxing/js/index.js" afterPath="$PROJECT_DIR$/lixiaoyuanxing/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lixiaoyuanxing/json/liucheng.json" afterPath="$PROJECT_DIR$/lixiaoyuanxing/json/liucheng.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lixiaoyuanxing/json/stuinfo.json" afterPath="$PROJECT_DIR$/lixiaoyuanxing/json/stuinfo.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/.project" afterPath="$PROJECT_DIR$/mui/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/css/2d.css" afterPath="$PROJECT_DIR$/mui/css/2d.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/css/daohanglan.css" afterPath="$PROJECT_DIR$/mui/css/daohanglan.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/css/hengxiang.css" afterPath="$PROJECT_DIR$/mui/css/hengxiang.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/css/index.css" afterPath="$PROJECT_DIR$/mui/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/css/largespa.css" afterPath="$PROJECT_DIR$/mui/css/largespa.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/css/selecter.css" afterPath="$PROJECT_DIR$/mui/css/selecter.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/css/xiangmuyanshi.css" afterPath="$PROJECT_DIR$/mui/css/xiangmuyanshi.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/css/xiding.css" afterPath="$PROJECT_DIR$/mui/css/xiding.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/css/zhezhao.css" afterPath="$PROJECT_DIR$/mui/css/zhezhao.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/css/zhuanchang.css" afterPath="$PROJECT_DIR$/mui/css/zhuanchang.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/js/daohanglan.js" afterPath="$PROJECT_DIR$/mui/js/daohanglan.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/js/index.js" afterPath="$PROJECT_DIR$/mui/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/js/largespa.js" afterPath="$PROJECT_DIR$/mui/js/largespa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/js/selecter.js" afterPath="$PROJECT_DIR$/mui/js/selecter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/js/xiangmuyanshi.js" afterPath="$PROJECT_DIR$/mui/js/xiangmuyanshi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/js/xiding.js" afterPath="$PROJECT_DIR$/mui/js/xiding.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/js/zhezhao.js" afterPath="$PROJECT_DIR$/mui/js/zhezhao.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/js/zhuanchang.js" afterPath="$PROJECT_DIR$/mui/js/zhuanchang.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/json/file1.json" afterPath="$PROJECT_DIR$/mui/json/file1.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/learnstep/2d3d.html" afterPath="$PROJECT_DIR$/mui/learnstep/2d3d.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/learnstep/ajaxjson.html" afterPath="$PROJECT_DIR$/mui/learnstep/ajaxjson.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/learnstep/cssdonghua.html" afterPath="$PROJECT_DIR$/mui/learnstep/cssdonghua.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/learnstep/webweixin/css/index.css" afterPath="$PROJECT_DIR$/mui/learnstep/webweixin/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/learnstep/webweixin/js/index.js" afterPath="$PROJECT_DIR$/mui/learnstep/webweixin/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/learnstep/zhezhao.html" afterPath="$PROJECT_DIR$/mui/learnstep/zhezhao.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mui/learnstep/zhuanchang.html" afterPath="$PROJECT_DIR$/mui/learnstep/zhuanchang.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shanghuaxiala/.project" afterPath="$PROJECT_DIR$/shanghuaxiala/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shanghuaxiala/css/index.css" afterPath="$PROJECT_DIR$/shanghuaxiala/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shanghuaxiala/index.html" afterPath="$PROJECT_DIR$/shanghuaxiala/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/threejs/three.html" afterPath="$PROJECT_DIR$/threejs/three.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/threejs/three.js" afterPath="$PROJECT_DIR$/threejs/three.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/.project" afterPath="$PROJECT_DIR$/upload/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/Untitled-1.html" afterPath="$PROJECT_DIR$/upload/Untitled-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/upload.html" afterPath="$PROJECT_DIR$/upload/upload.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vueyuan/.project" afterPath="$PROJECT_DIR$/vueyuan/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webkitCSS遮罩/css/app.css" afterPath="$PROJECT_DIR$/webkitCSS遮罩/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webkitCSS遮罩/index.html" afterPath="$PROJECT_DIR$/webkitCSS遮罩/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yingxinyuanxing/.project" afterPath="$PROJECT_DIR$/yingxinyuanxing/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yingxinyuanxing/design/新生报到流程/Untitled-1.css" afterPath="$PROJECT_DIR$/yingxinyuanxing/design/新生报到流程/Untitled-1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yingxinyuanxing/design/新生报到流程/新生报到流程/css/styles.css" afterPath="$PROJECT_DIR$/yingxinyuanxing/design/新生报到流程/新生报到流程/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yingxinyuanxing/design/新生报到流程/新生报到流程/index1.html" afterPath="$PROJECT_DIR$/yingxinyuanxing/design/新生报到流程/新生报到流程/index1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/css/global.css" afterPath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/css/index.css" afterPath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/css/login.css" afterPath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/css/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/css/owl.css" afterPath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/css/owl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/css/yingxin.css" afterPath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/css/yingxin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/index.html" afterPath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/js/numformat.js" afterPath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/js/numformat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/js/owl.carousel.min.js" afterPath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/js/owl.carousel.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/js/yingxin.js" afterPath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/js/yingxin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/login.html" afterPath="$PROJECT_DIR$/yingxinyuanxing/yingxinshouye/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/图片获取/图片获取.html" afterPath="$PROJECT_DIR$/图片获取/图片获取.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/字符串截取/字符串截取.html" afterPath="$PROJECT_DIR$/字符串截取/字符串截取.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/开关swicth/.project" afterPath="$PROJECT_DIR$/开关swicth/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/开关swicth/index.html" afterPath="$PROJECT_DIR$/开关swicth/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/支付成功失败提示页面/.project" afterPath="$PROJECT_DIR$/支付成功失败提示页面/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/支付成功失败提示页面/app.css" afterPath="$PROJECT_DIR$/支付成功失败提示页面/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/支付成功失败提示页面/支付提示跳转.html" afterPath="$PROJECT_DIR$/支付成功失败提示页面/支付提示跳转.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/流程标题跟随流程运动/.project" afterPath="$PROJECT_DIR$/流程标题跟随流程运动/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/流程标题跟随流程运动/css/global.css" afterPath="$PROJECT_DIR$/流程标题跟随流程运动/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/流程标题跟随流程运动/css/index.css" afterPath="$PROJECT_DIR$/流程标题跟随流程运动/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/流程标题跟随流程运动/css/login.css" afterPath="$PROJECT_DIR$/流程标题跟随流程运动/css/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/流程标题跟随流程运动/css/owl.css" afterPath="$PROJECT_DIR$/流程标题跟随流程运动/css/owl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/流程标题跟随流程运动/css/yingxin.css" afterPath="$PROJECT_DIR$/流程标题跟随流程运动/css/yingxin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/流程标题跟随流程运动/index.html" afterPath="$PROJECT_DIR$/流程标题跟随流程运动/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/流程标题跟随流程运动/js/numformat.js" afterPath="$PROJECT_DIR$/流程标题跟随流程运动/js/numformat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/流程标题跟随流程运动/js/owl.carousel.min.js" afterPath="$PROJECT_DIR$/流程标题跟随流程运动/js/owl.carousel.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/流程标题跟随流程运动/js/yingxin.js" afterPath="$PROJECT_DIR$/流程标题跟随流程运动/js/yingxin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/流程标题跟随流程运动/login.html" afterPath="$PROJECT_DIR$/流程标题跟随流程运动/login.html" />
+    </list>
+    <ignored path="busket.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="busket" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".eslintrc.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/.eslintrc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".eslintignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/.eslintignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".editorconfig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/.editorconfig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/Vue1/yx</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="zhaihao" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Vue1/yx/router0/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="11" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="832" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="busket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="busket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="busket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="busket" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="busket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="busket" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue1" type="462c0819:PsiDirectoryNode" />
+              <item name="yx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="busket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="busket" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue1" type="462c0819:PsiDirectoryNode" />
+              <item name="yx" type="462c0819:PsiDirectoryNode" />
+              <item name="router0" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="editor.config.accepted" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1517b305-3198-419d-b9e8-f52c274cf3bc" name="默认" comment="" />
+      <created>1505282406251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505282406251</updated>
+      <workItem from="1505282408032" duration="4000" />
+      <workItem from="1505282633246" duration="705000" />
+      <workItem from="1505283616533" duration="545000" />
+      <workItem from="1505284348945" duration="110000" />
+      <workItem from="1505284561161" duration="186000" />
+    </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1505282827084</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1505282827084</updated>
+    </task>
+    <task id="LOCAL-00002" summary="默认">
+      <created>1505284012446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505284012446</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1550000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="11" y="23" width="1440" height="832" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18463707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23389356" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <MESSAGE value="默认" />
+    <option name="LAST_COMMIT_MESSAGE" value="默认" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/.postcssrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/.postcssrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-9">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/.babelrc" />
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/.eslintignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue1/yx/router0/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
