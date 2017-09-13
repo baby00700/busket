@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery.js" type="text/javascript"></script>
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="canvas0" width="500px" height="10000px"></canvas>
+</body>
+<script>
+    $(document).ready(function(){
+        var canvas =$("#canvas0");
+        var context=canvas.get(0).getContext("2d");
+        context.fillStyle='rgb(255,0,0)';
+        context.strokeStyle="rgb(0,255,0)";
+        context.lineWidth="3";
+        context.fillRect(10,10,100,100); //画一个矩形 距离左边和上边分别为10 填充为黑色 描边无
+        context.strokeRect(10,120,100,100); //矩形 描边 
+        //----线条开始---
+        context.beginPath();
+        context.moveTo(10,240);
+        context.lineTo(100,320);
+        context.closePath();
+        context.stroke();//绘制线条
+        //---线条结束-----
+        
+        //--整个圆形 
+        context.lineWidth="5";               //---设置线宽
+        context.fillStyle="rgb(0,0,255)";    //---设置填充颜色
+        context.strokeStyle="rgb(255,0,0)";  //---设置边线颜色
+        context.beginPath();
+        context.arc(60,380,50,0,Math.PI*2,false);
+        context.closePath();
+        context.stroke();
+        //--半个圆形
+        context.beginPath();
+        context.arc(60,500,50,0,Math.PI,false);
+        context.closePath();
+        context.stroke();
+        context.fill();
+
+        context.beginPath();
+        context.arc(60,620,50,0,(Math.PI/180)*90,true);
+        context.closePath();
+        context.stroke();
+        context.fill();
+
+    });
+</script>
+</html>

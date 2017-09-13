@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script  src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    canvas {
+        display: block;
+    }
+</style>
+
+<body>
+    <canvas id="canvas0"></canvas>
+</body>
+<script>
+    $(document).ready(function () {
+        var canvas = $("#canvas0");
+        var ctx = canvas.get(0).getContext("2d");//创建2d上下文
+        //自适应
+        function resize() {
+            var canvasheight = $(window).get(0).innerHeight + "px";
+            var canvaswidth = $(window).get(0).innerWidth + "px";
+            canvas.attr("width", canvaswidth);
+            canvas.attr('height', canvasheight);
+            console.log(canvasheight + "--" + canvaswidth);
+        }
+        resize();
+
+        $(window).resize(function () {
+            resize();
+        })
+
+        var dd;
+        var cc;
+
+        $("#canvas0").mousemove(function (e) {
+            cc = e.offsetX;
+            dd = e.offsetY;
+            console.log(cc + ":" + dd);
+            autotocd();
+            movef();
+
+        });
+
+        function randomcd() {
+            cc = Math.floor(Math.random() * ($(window).get(0).innerWidth)) ;
+            dd = Math.floor(Math.random() * ($(window).get(0).innerHeight)) ;
+            autotocd();
+            movef();
+        }
+        var rect = {
+            rectx: 0,
+            recty: 0,
+            rectwidth: 30,
+            rectheight: 30,
+        }
+
+        var rects = [];
+        function inrects() {
+            for (var i = 3; i < 15; i = i + 15) {
+                for (var n = 3; n < 15; n = n + 15) {
+                    var rect = {};
+                    rect.rectx = i * 3;
+                    rect.recty = n * 3;
+                    rect.rectwidth = 30;
+                    rect.rectheight = 30;
+                    rects.push(rect);
+                }
+
+            }
+
+        }
+        inrects();
+
+        function paint() {
+               
+                ctx.fillStyle="#ffcccc"
+                ctx.beginPath();
+                ctx.arc(x1, y1, 50, 0, Math.PI * 2, false);
+                ctx.closePath();
+                ctx.stroke();
+                ctx.fill();
+                ctx.beginPath();
+                ctx.arc(x1, y1, 150, 0, Math.PI * 2, false);
+                ctx.closePath();
+                ctx.stroke();
+            for (var i = 0; i < rects.length; i++) {
+                for (var n = 0; n < rects.length; n++) {
+                    //ctx.fillStyle = "#" + ("00000" + ((Math.random() * 16777215 + 0.1) >> 0).toString(16)).slice(-6);
+                    ctx.fillStyle="#0000ff";
+                    ctx.beginPath();
+
+                    ctx.arc(rects[i].rectx, rects[n].recty, 30, 0, Math.PI * 2, false);
+
+                    ctx.closePath();
+                    ctx.stroke();
+                    ctx.fill();
+                    // ctx.fillRect(rects[i].rectx, rects[n].recty, rects[i].rectwidth, rects[i].rectheight);
+
+
+
+                }
+
+            }
+        }
+        //paint();
+        
+        console.log(rects);
+        function clear() {
+            ctx.clearRect(0, 0, canvas.width(), canvas.height());
+            paint();
+           
+           
+        }
+
+        var rans = [];
+        var ran;
+        function getran() {
+            for (var i = 0; i < 49; i++) {
+                ran = Math.floor(Math.random() * 49);
+                rans.push(ran);
+            }
+        }
+        getran();
+        console.log(rans);
+        var x1 = ($(window).get(0).innerWidth)/2;
+        var y1 = ($(window).get(0).innerHeight)/2;
+        var x2;
+        var y2;
+        var rad = 150;
+        var ang = 0;
+        var ang1 = 0;
+        function autotocd() {
+            for (var i = 0; i < rects.length; i++) {
+                var ccf1 = Math.pow((cc - rects[i].rectx), 2);
+                var ddf1 = Math.pow((dd - rects[i].recty), 2);
+                var len1 = Math.sqrt(ccf1 + ddf1);
+                if (x1 < cc && len1 != 0) {
+                    x1++;
+                } else if (x1 > cc && len1 != 0) {
+                    x1--;
+                } else if (x1 == cc && len1 != 0) {
+                    x1 = cc;
+                }
+                if (y1 < dd && len1 != 0) {
+                    y1++;
+                } else if (y1 > dd && len1 != 0) {
+                    y1--;
+                } else if (y1 == dd && len1 != 0) {
+                    y1 = dd;
+                }
+
+            }
+            ang +=1;
+            //rad=rad+0.1;
+            if (ang > 360) {
+                ang = 0;
+            }
+
+            ang1 +=6;
+            //rad=rad+0.1;
+            if (ang1 > 360) {
+                ang1 = 0;
+            }
+            // if(rad>=200){
+
+            //      rad=200;
+            //  }
+
+        }
+        autotocd();
+        
+        function movef() {
+            for (var i = 0; i < rects.length; i++) {
+                var ccf = Math.pow((cc - rects[i].rectx), 2);
+                var ddf = Math.pow((dd - rects[i].recty), 2);
+                var len = Math.sqrt(ccf + ddf);
+                ctx.save();
+                rects[i].rectx = x1 + (rad * Math.cos((Math.PI / 180) * ang));
+                rects[i].recty = y1 + (rad * Math.sin((Math.PI / 180) * ang));
+                var x0=rects[i].rectx;
+                var y0= rects[i].recty
+                console.log(ccf);
+                console.log(ddf);
+                console.log(len + "--");
+                clear();
+                ctx.restore();
+                ctx.fillStyle="#00eeff"
+                ctx.beginPath();
+                ctx.arc(x0+(50 * Math.cos((Math.PI / 180) * ang1)), y0+(50 * Math.sin((Math.PI / 180) * ang1)), 10, 0, Math.PI * 2, false);
+                ctx.closePath();
+                ctx.fill();
+                ctx.beginPath();
+                ctx.arc(x0, y0, 50, 0, Math.PI * 2, false);
+                ctx.closePath();
+                ctx.stroke();
+            }
+        }
+
+        setInterval(function () {
+            
+            autotocd();
+            movef();
+           
+        }, 20);
+       
+
+    });
+
+</script>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery.js" type="text/javascript"></script>
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="canvas0" width="500px" height="500px"></canvas>
+</body>
+<script>
+    $(document).ready(function(){
+        var canvas=$("#canvas0");
+        var context=canvas.get(0).getContext("2d");
+        var text0="实心字";
+        context.font = "italic 60px serif"; 
+        context.fillText(text0,0,30);
+        var text0="空心字";
+         context.font = "italic 70px serif"; 
+        context.strokeText(text0,120,150);
+        context.clearRect(0,0,30,30);//-清除画布部分内容 大小为 30*30 清楚整个画布使用canvas.width*canvas.height
+
+    });
+</script>
+</html>

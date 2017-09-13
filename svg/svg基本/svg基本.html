@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>svg0</title>
+</head>
+<body style="background-color:black">
+    <div >
+            <svg width="400" height="400" id="cle">
+                    <circle class="st0" cx="200" cy="200" r='50' stroke="green" stroke-width="2"  style="stroke:blue;fill:none;stroke-width:10"></circle>
+            </svg>
+    </div>
+    <svg width="400" height="110">
+        <rect width="70" height="70" class="st0" style="stroke-width:2;stroke:rgb(250,50,50)" />
+     </svg>
+     <svg width="400" height="400" id="cle">
+            <circle  cx="200" cy="200" r='200' stroke="green" stroke-width="2"  style="stroke:rgba(0,0,255,0.6);stroke-width:2;fill:rgba(200,200,205,0.1);"></circle>
+            <circle  cx="200" cy="200" r='100' stroke="green" stroke-width="2"  style="stroke:rgba(0,0,255,0.6);stroke-width:2"></circle>
+         <circle class="st0" cx="200" cy="200" r='100' stroke="green" stroke-width="2"  style="stroke:rgba(0,255,0,0.2);fill:rgba(0,255,0,0.4);stroke-width:200"></circle>
+     </svg>
+     <svg width="400" height="400">
+            <rect troke-linejoin="round" class="st0" x='100' y='100' rx='15' ry='15' width='150' height='150' style="stroke:green;fill:none;stroke-width:3;stroke-width:3"></rect>
+    </svg>
+    <svg width="400" height="400">
+        <ellipse class="st0" cx='100' cy='100' rx='70' ry='50' troke-linejoin="round" style="stroke:green;fill:none;stroke-width:10"></ellipse>
+    </svg>
+    <svg width="400" height="400">
+        <line class="st0" x1='0' y1='0' x2='300' y2='300' style="stroke:green;"></line>
+    </svg>
+    <svg width="400" height="400">
+        <polyline troke-linejoin="round" class="st0" points="0,40 30,90 50,100 60,160"  style="fill:none;stroke:red;stroke-width:3" ></polyline>
+        </svg>
+        <svg width="1000" height="1000">
+        <path class="st0" d="M168.5,109.5c-53,40-64,173,7,196c0,0,106,36,150-39s13-139,3-145s-74-28-112-23S168.5,109.5,168.5,109.5z" style="fill:none;stroke:red;stroke-width:3"/>
+       
+        </svg>
+        <!-- <svg width="10000" height="10000">
+                <polygon class="st0" points="304.6,176.5 233.5,194 207.3,262.4 169,200.3 95.9,196.9 143.4,141 124.4,70.5 192,98 253.4,57.9 
+                247.7,130.8 " style="fill:none;stroke:red;stroke-width:1"/>
+        </svg> -->
+        <svg width="400" height="400" >
+                <path class="st0" d="M278.5,262.5h-100v-100h100V262.5z M178.5,162.5l100,100h-100l100-100H178.5z" style="fill:none;stroke:blue;stroke-width:1"/>
+        </svg>
+</body>
+<style>
+    .st0 {
+    stroke-dasharray: 628;
+    stroke-dashoffset: 500;
+    animation: dash 4s ease infinite alternate;
+    
+    }
+
+    @keyframes dash {
+        to {
+            stroke-dashoffset: 500;
+        }
+    }
+    #cle{
+        background-color:black;
+        animation: rot 0.8s linear infinite;
+    }
+    @keyframes rot {
+        0% {transform: rotate(0deg);}
+        50% {transform: rotate(180deg);}
+        100% {transform: rotate(360deg);}
+     
+    }
+
+	.st1{opacity:0.15;fill:url(#SVGID_1_);stroke-dasharray: 628;
+    stroke-dashoffset: 628;
+    animation: dash 4s ease infinite alternate;}
+	.st2{opacity:0.5;fill:url(#SVGID_2_);stroke-dasharray: 628;
+    stroke-dashoffset: 628;
+    animation: dash 4s ease infinite alternate;}
+	.st3{fill:url(#SVGID_3_);stroke-dasharray: 628;
+    stroke-dashoffset: 628;
+    animation: dash 4s ease infinite alternate;}
+	.st4{opacity:3.000000e-02;fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;stroke-dasharray: 628;
+    stroke-dashoffset: 628;
+    animation: dash 4s ease infinite alternate;}
+	
+    @keyframes dash {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+</style>
+</html>

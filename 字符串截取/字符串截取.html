@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>截取字符串</title>
+	<script src="jquery.js" type="text/javascript"></script>
+</head>
+<style>
+	.box{
+		height:100px;
+		width:200px;
+	}
+	.box2{
+		height:100px;
+		width:200px;
+	}
+</style>
+<body>
+	<div class="box">
+		校本部-北区一栋-一单元-2层-211宿舍-1床
+	</div>
+	<div class="box2">
+		
+	</div>
+	<div class="querenxinxi" id="xgtip0" style="text-align: right;padding-right:15px;font-size:16px;color:red;margin-top:5px;font-weight:bolder;">总计<span>0</span>元</div>
+</body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var sshOrign="校本部-北区一栋-一单元-2层-一套-套件1-211宿舍-1床";//名称实例
+			$(".box").text(sshOrign);
+			var ssharr = sshOrign.split("-"); //以-为标志分割 存为数组 ssharr
+			console.log(ssharr);
+			console.log(ssharr.length);  //获取 ssharr长度
+			var ssh=ssharr[0]+"-";			//获取ssharr "校本部"
+			for(var i=1;i<=ssharr.length-2;i++){  //循环从 第二位到倒数第二位
+				 ssh+=ssharr[i]+"-";  //连接循环
+			}
+			ssh=ssh.substring(0,ssh.length-1); //去掉最后一位“-”
+			console.log(ssh);
+			
+			$(".box2").text(ssh);
+		});
+	</script>
+</html>

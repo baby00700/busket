@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery.js" type="text/javascript"></script>
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    canvas {
+        display: block;
+    }
+</style>
+
+<body>
+    <canvas id="canvas0"></canvas>
+</body>
+<script>
+    $(document).ready(function () {
+        var canvas = $("#canvas0");
+        var ctx = canvas.get(0).getContext("2d");//创建2d上下文
+        //自适应
+        function resize() {
+            var canvasheight = $(window).get(0).innerHeight + "px";
+            var canvaswidth = $(window).get(0).innerWidth + "px";
+            canvas.attr("width", canvaswidth);
+            canvas.attr('height', canvasheight);
+            console.log(canvasheight + "--" + canvaswidth);
+        }
+        resize();
+
+        $(window).resize(function () {
+            resize();
+        })
+
+        var dots={
+            xpoint:400,
+            ypoint:400
+        }
+        //计算两个点之间的距离 首先要先设定一个半径 所有点都要围绕这个半径所运动 圆心？？？ sin(ang)=x1/rad; x1=sin(ang)*rad;
+        // var x0= dotlist[0].xpoint;
+        // var y0= dotlist[0].ypoint;
+        var dotlist=[];
+        var rad=100;
+        var ang=0;
+        var x0=300;
+        var y0=300;
+        var y1=Math.sin((Math.PI/180)*ang)*rad+y0;
+        var x1=((y1-y0)/(Math.tan((Math.PI)/180)*ang))+x0;
+        var s=19;
+        var x=0;
+        function autos(){
+            s++;
+            x++
+            indotlist();
+            paint();
+            
+        }
+        function indotlist(){
+            for(var i=0;i<90;i=i+0.1){
+                var dots={};
+                // dots.xpoint=rad*Math.sin(i*(Math.PI)/180);
+                // dots.ypoint=rad*Math.cos(i*(Math.PI)/180);
+                // dots.xpoint=((Math.sin(i*(Math.PI)/180+30*(Math.PI)/180))*100)/(Math.sin(30*(Math.PI)/180));
+                // dots.ypoint=((Math.cos(i*(Math.PI)/180+30*(Math.PI)/180))*60)/(Math.cos(30*(Math.PI)/180));
+               
+                //dots.xpoint=(Math.sqrt(rad*rad)*Math.sqrt(Math.pow(Math.tan((i*(Math.PI)/180)+(ang*(Math.PI)/180)),2)+1)+x0*Math.pow(Math.tan((i*(Math.PI)/180)+(ang*(Math.PI)/180)),2)+x0)/(Math.pow(Math.tan((i*(Math.PI)/180)+(ang*(Math.PI)/180)),2)+1); // 
+                //dots.ypoint=((Math.tan((i*(Math.PI)/180)+(ang*(Math.PI)/180)))*(dots.xpoint-x0))+y0;
+                
+                // dots.ypoint=Math.sin((i*(Math.PI)/180)+((Math.PI/180)*ang))*rad+y0;
+                // dots.xpoint=((y1-y0)/(Math.tan((i*(Math.PI)/180)+(Math.PI)/180)*ang))+x0;
+                //sin
+                dots.xpoint=(Math.PI)*i*19+s;
+                dots.ypoint=Math.sin(dots.xpoint)*100+200;
+                dots.r=100/(Math.cos(30*(Math.PI)/180));
+                dotlist.push(dots);
+            }
+           
+        }
+        indotlist();
+        
+        function clear(){
+          ctx.clearRect(0, 0, canvas.width(), canvas.height());
+       }
+        // console.log("x0:"+x0);
+        // console.log("y0:"+y0);
+        // var x1=dotlist[1].xpoint;
+        // var y1=dotlist[1].ypoint;
+        var x1;
+        var y1;
+        x1=rad*Math.sin(ang*(Math.PI/2)/180);
+        y1=rad*Math.cos(ang*(Math.PI/2)/180);
+        
+
+        function paint(){
+            console.log(dotlist.length);
+            console.log(dotlist[1].ypoint);
+            for(var i=1;i<dotlist.length;i++){
+               
+                ctx.beginPath();
+                ctx.moveTo(dotlist[i-1].xpoint,dotlist[i-1].ypoint);
+                ctx.lineTo(dotlist[i].xpoint,dotlist[i].ypoint);
+                ctx.closePath();
+                ctx.stroke();
+                
+            }
+        }
+        paint();
+
+        setInterval(function(){
+            autos();
+        },1000);
+        // setInterval(function(){
+        //     clear();
+        // },2000);
+
+
+    });
+</script>
+
+</html>

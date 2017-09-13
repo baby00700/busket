@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./jquery.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="box1"></div>
+</body>
+    <script>
+        var cc=[];
+        var arr=[1,2,3,4,5,7,9,10,11,15,16,19,20,21,29];
+        for(var i=1;i<arr.length;i++){
+            var xxs=arr[i]-arr[i-1];
+            if(xxs>2){
+                for(var c=1;c<xxs;c++){
+                   var c0=arr[i-1]+c;
+                   console.log(c0);
+                   cc.push(c0);
+                }
+            }else if(xxs==2){
+                console.log(arr[i-1]+1);
+                cc.push(arr[i-1]+1);
+            }
+            
+        }
+        console.log(cc);
+        $("#box1").html(cc+"");
+    </script>
+</html>

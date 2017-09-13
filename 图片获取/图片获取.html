@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>图片获取</title>
+	<script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+</head>
+<style type="text/css">
+	.imgbox2{
+		width:200px;
+		height:300px;
+		background-size:100% 100%;
+	}
+</style>
+<body>
+	<div class="imgbox2">
+		
+	</div>
+	<img class="yicun" onerror="notfound()"/>
+</body>
+<script type="text/javascript">
+    var ksh="0222101146";
+    var imgpath1='http://218.95.46.79/photo/photo/'+ksh+'.JPG';
+    var imgpath2='http://218.95.46.79/photo/photo/'+ksh+'.jpg';
+    var imgpath3='http://218.95.46.79/photo/photo/'+ksh+'.BMP';
+    var imgpath4='http://218.95.46.79/photo/photo/'+ksh+'.bmp';
+
+    $(document).ready(function(){
+    	$(".imgbox").attr("src",imgpath1);
+    	 $(".yicun").css('background-image','url("http://218.95.46.79/photo/photo/'+ksh+'.JPG")');
+    });
+    
+	function notfound(){
+		var img=event.srcElement; 
+		//alert("非JPG");	 
+		 img.src=imgpath2;
+		 $(".yicun").css('background-image','url("http://218.95.46.79/photo/photo/'+ksh+'.jpg")');
+		
+		  img.onerror=function(){
+		  	//alert("非jpg");	
+		  	 img.src=imgpath3;
+		  	  $(".yicun").css('background-image','url("http://218.95.46.79/photo/photo/'+ksh+'.BMP")');
+		  	 
+		  	  img.onerror=function(){
+		  	  	//alert("非BMP");
+		  	  	$(".yicun").css('background-image','url("http://218.95.46.79/photo/photo/'+ksh+'.bmp")');
+		  	  
+		  	  	 img.src=imgpath4;
+		  	  	 img.onerror=null;//这里可以设置为默认的--null是终止onerror--
+		  	  }
+		  }
+	}
+
+</script>
+	
+</html>
